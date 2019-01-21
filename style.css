@@ -1,87 +1,3 @@
-
-/* CSS CLEAN UP PORTION
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*Separated the elements so each has a different color*/
-.element1 {
-  background-color: blue;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-}
-
-.element2 {
-  background-color: red;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
-}
-
-.element3 {
-  background-color: orange;
-  height: 100px;
-  margin: 100px 0;
-  width: 100%;
-}
-
-/* CSS CLEAN UP PORTION DONE*/
-
-
-/* Body has font size of 14px*/
-body{
-  font-size: 14px;
-}
-
-
 /* Characteristics of the nav section */
 nav {
   background color: yellow;
@@ -89,7 +5,9 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+  font-size: 14px;
 }
+
 
 section {
   margin: 0 auto;
@@ -116,9 +34,25 @@ h3 {
 
 
 /*this section provides the characterstics of the element class */
-.element {
-  background-color: green;
+.element, .element1, .element2, .element3 {
   height: 100px;
   margin: 10px 0;
   width: 100%;
+  background-color: green;
+}
+
+
+/*Separated the elements so each has a different color*/
+.element1 {
+  background-color: blue;
+}
+
+
+.element2 {
+  background-color: red;
+ }
+
+
+.element3 {
+  background-color: orange;
 }
